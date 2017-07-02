@@ -33,6 +33,16 @@
 #    Annotation properties
 #################################################################
 
+###  http://www.w3.org/2000/01/rdf-schema#commet
+rdfs:commet rdf:type owl:AnnotationProperty ;
+            rdfs:label "rdfs:commet" .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#jaja
+rdfs:jaja rdf:type owl:AnnotationProperty ;
+          rdfs:label "rdfs:jaja" .
+
+
 ###  http://www.w3.org/ns/prov#wasDerivedFrom
 <http://www.w3.org/ns/prov#wasDerivedFrom> rdf:type owl:AnnotationProperty .
 
@@ -32694,6 +32704,7 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 :Demographics rdf:type owl:Class ;
               rdfs:subClassOf owl:Thing ;
               rdfs:comment "Population of a place. Uses these properties: populationTotal, year (when measured, populationYear), rank (sortOrder of this place amongst its siblings at the same level), name (areal measured by the population, eg: \"locality\", \"municipality\" or \"comitat\")"@en ;
+              rdfs:commet "jaja"@en ;
               rdfs:label "Demografie"@de ,
                          "demografie"@nl ,
                          "demographics"@en ,
@@ -41704,20 +41715,20 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 #    Annotations
 #################################################################
 
-:Department rdfs:label "Distrikt"@de ,
-                       "departement"@nl ,
+:Department rdfs:label "departement"@nl ,
+                       "Distrikt"@de ,
                        "département"@fr ,
                        "department"@en ,
                        "τμήμα"@el ,
                        "부서"@ko ;
             <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Department> ;
-            rdfs:label "roinn"@ga ,
-                       "Distrito"@es .
+            rdfs:label "Distrito"@es ,
+                       "roinn"@ga .
 
 
-:MemberOfParliament rdfs:label "member of parliament"@en ;
-                    <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
-                    rdfs:label "parlementslid"@nl ,
+:MemberOfParliament <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
+                    rdfs:label "member of parliament"@en ,
+                               "parlementslid"@nl ,
                                "membre du Parlement"@fr ,
                                "Parlamentsmitglied"@de ,
                                "Μέλος κοινοβουλίου"@el ,
@@ -41731,9 +41742,9 @@ http://vocab.getty.edu/ulan/$1"""@en ;
                  "όνομα"@el ,
                  "naam"@nl ,
                  "name"@en ,
-                 "nazwa"@pl ,
+                 "nome"@pt ,
                  "ainm"@ga ,
-                 "nome"@pt .
+                 "nazwa"@pl .
 
 
 :ingredientName <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:ingredientName> ;
