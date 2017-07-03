@@ -35534,6 +35534,7 @@ SubClassOf(:Lawyer :Person)
 
 AnnotationAssertion(rdfs:label :LegalCase "Legal Case"@en)
 AnnotationAssertion(rdfs:label :LegalCase "Rechtsfall"@de)
+AnnotationAssertion(rdfs:label :LegalCase "cas juridic"@ca)
 AnnotationAssertion(rdfs:label :LegalCase "cas juridique"@fr)
 AnnotationAssertion(rdfs:label :LegalCase "caso jurídico"@pt)
 AnnotationAssertion(rdfs:label :LegalCase "rechtzaak"@nl)

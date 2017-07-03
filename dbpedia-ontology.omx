@@ -45778,6 +45778,7 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Case"/>
         <rdfs:label xml:lang="en">Legal Case</rdfs:label>
         <rdfs:label xml:lang="de">Rechtsfall</rdfs:label>
+        <rdfs:label xml:lang="ca">cas juridic</rdfs:label>
         <rdfs:label xml:lang="fr">cas juridique</rdfs:label>
         <rdfs:label xml:lang="pt">caso jurídico</rdfs:label>
         <rdfs:label xml:lang="nl">rechtzaak</rdfs:label>

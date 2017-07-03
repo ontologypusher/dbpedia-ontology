@@ -34835,6 +34835,7 @@ http://vocab.getty.edu/ulan/$1"""@en ;
            rdfs:subClassOf :Case ;
            rdfs:label "Legal Case"@en ,
                       "Rechtsfall"@de ,
+                      "cas juridic"@ca ,
                       "cas juridique"@fr ,
                       "caso jurídico"@pt ,
                       "rechtzaak"@nl ,
