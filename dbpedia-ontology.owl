@@ -48,22 +48,6 @@
     
 
 
-    <!-- http://www.w3.org/2000/01/rdf-schema#commet -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#commet">
-        <rdfs:label>rdfs:commet</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#jaja -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#jaja">
-        <rdfs:label>rdfs:jaja</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
@@ -43176,7 +43160,6 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
     <owl:Class rdf:about="http://dbpedia.org/ontology/Demographics">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment xml:lang="en">Population of a place. Uses these properties: populationTotal, year (when measured, populationYear), rank (sortOrder of this place amongst its siblings at the same level), name (areal measured by the population, eg: &quot;locality&quot;, &quot;municipality&quot; or &quot;comitat&quot;)</rdfs:comment>
-        <rdfs:commet xml:lang="en">jaja</rdfs:commet>
         <rdfs:label xml:lang="de">Demografie</rdfs:label>
         <rdfs:label xml:lang="nl">demografie</rdfs:label>
         <rdfs:label xml:lang="en">demographics</rdfs:label>
@@ -54672,19 +54655,19 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
      -->
 
     <rdf:Description rdf:about="http://dbpedia.org/ontology/Department">
-        <rdfs:label xml:lang="nl">departement</rdfs:label>
         <rdfs:label xml:lang="de">Distrikt</rdfs:label>
+        <rdfs:label xml:lang="nl">departement</rdfs:label>
         <rdfs:label xml:lang="fr">département</rdfs:label>
         <rdfs:label xml:lang="en">department</rdfs:label>
         <rdfs:label xml:lang="el">τμήμα</rdfs:label>
         <rdfs:label xml:lang="ko">부서</rdfs:label>
         <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:Department"/>
-        <rdfs:label xml:lang="es">Distrito</rdfs:label>
         <rdfs:label xml:lang="ga">roinn</rdfs:label>
+        <rdfs:label xml:lang="es">Distrito</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://dbpedia.org/ontology/MemberOfParliament">
-        <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament"/>
         <rdfs:label xml:lang="en">member of parliament</rdfs:label>
+        <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament"/>
         <rdfs:label xml:lang="nl">parlementslid</rdfs:label>
         <rdfs:label xml:lang="fr">membre du Parlement</rdfs:label>
         <rdfs:label xml:lang="de">Parlamentsmitglied</rdfs:label>
@@ -54699,9 +54682,9 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
         <rdfs:label xml:lang="el">όνομα</rdfs:label>
         <rdfs:label xml:lang="nl">naam</rdfs:label>
         <rdfs:label xml:lang="en">name</rdfs:label>
-        <rdfs:label xml:lang="pt">nome</rdfs:label>
-        <rdfs:label xml:lang="ga">ainm</rdfs:label>
         <rdfs:label xml:lang="pl">nazwa</rdfs:label>
+        <rdfs:label xml:lang="ga">ainm</rdfs:label>
+        <rdfs:label xml:lang="pt">nome</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://dbpedia.org/ontology/ingredientName">
         <prov:wasDerivedFrom rdf:resource="http://mappings.dbpedia.org/index.php/OntologyProperty:ingredientName"/>
