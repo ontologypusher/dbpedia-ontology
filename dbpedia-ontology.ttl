@@ -30178,7 +30178,7 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 :Area rdf:type owl:Class ;
       rdfs:subClassOf owl:Thing ;
       rdfs:comment "Area of something. Use \"value\" for the value, \"min\" & \"max\" for a range (if uncertain) and \"rank\" (integer) for the rank of that thing amongst its siblings (eg regions ordered by area)"@en ,
-                   "Εμβαδόν ή έκταση είναι το μέγεθος μέτρησης των επιφανειών."@el ;
+                   "Εμβαδόν ή έκταση είναι το μέγεθος μέτρησης των επιφανειών.ddd"@el ;
       rdfs:label "Bereich"@de ,
                  "area"@en ,
                  "ceantar"@ga ,
@@ -41705,20 +41705,20 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 #    Annotations
 #################################################################
 
-:Department rdfs:label "Distrikt"@de ,
-                       "departement"@nl ,
+:Department rdfs:label "departement"@nl ,
+                       "Distrikt"@de ,
                        "département"@fr ,
                        "department"@en ,
                        "τμήμα"@el ,
                        "부서"@ko ;
             <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Department> ;
-            rdfs:label "roinn"@ga ,
-                       "Distrito"@es .
+            rdfs:label "Distrito"@es ,
+                       "roinn"@ga .
 
 
-:MemberOfParliament rdfs:label "member of parliament"@en ;
-                    <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
-                    rdfs:label "parlementslid"@nl ,
+:MemberOfParliament <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:MemberOfParliament> ;
+                    rdfs:label "member of parliament"@en ,
+                               "parlementslid"@nl ,
                                "membre du Parlement"@fr ,
                                "Parlamentsmitglied"@de ,
                                "Μέλος κοινοβουλίου"@el ,
@@ -41732,9 +41732,9 @@ http://vocab.getty.edu/ulan/$1"""@en ;
                  "όνομα"@el ,
                  "naam"@nl ,
                  "name"@en ,
-                 "nazwa"@pl ,
+                 "nome"@pt ,
                  "ainm"@ga ,
-                 "nome"@pt .
+                 "nazwa"@pl .
 
 
 :ingredientName <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyProperty:ingredientName> ;
