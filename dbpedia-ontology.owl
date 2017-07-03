@@ -39873,6 +39873,7 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
     <owl:Class rdf:about="http://dbpedia.org/ontology/AnatomicalStructure">
         <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q4936952"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="de">Jajanuevo</rdfs:label>
         <rdfs:label xml:lang="en">anatomical structure</rdfs:label>
         <rdfs:label xml:lang="nl">anatomische structuur</rdfs:label>
         <rdfs:label xml:lang="de">anatomischen Struktur</rdfs:label>

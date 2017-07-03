@@ -29966,7 +29966,8 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 :AnatomicalStructure rdf:type owl:Class ;
                      owl:equivalentClass <http://www.wikidata.org/entity/Q4936952> ;
                      rdfs:subClassOf owl:Thing ;
-                     rdfs:label "anatomical structure"@en ,
+                     rdfs:label "Jajanuevo"@de ,
+                                "anatomical structure"@en ,
                                 "anatomische structuur"@nl ,
                                 "anatomischen Struktur"@de ,
                                 "anatomska struktura"@sl ,

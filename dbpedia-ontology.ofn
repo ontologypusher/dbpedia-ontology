@@ -31026,8 +31026,9 @@ AnnotationAssertion(rdfs:label :AmusementParkAttraction "δραστηριότη�
 AnnotationAssertion(<http://www.w3.org/ns/prov#wasDerivedFrom> :AmusementParkAttraction <http://mappings.dbpedia.org/index.php/OntologyClass:AmusementParkAttraction>)
 SubClassOf(:AmusementParkAttraction :ArchitecturalStructure)
 
-# Class: :AnatomicalStructure (struttura anatomica)
+# Class: :AnatomicalStructure (anatomska struktura)
 
+AnnotationAssertion(rdfs:label :AnatomicalStructure "Jajanuevo"@de)
 AnnotationAssertion(rdfs:label :AnatomicalStructure "anatomical structure"@en)
 AnnotationAssertion(rdfs:label :AnatomicalStructure "anatomische structuur"@nl)
 AnnotationAssertion(rdfs:label :AnatomicalStructure "anatomischen Struktur"@de)
