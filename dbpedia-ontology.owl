@@ -43184,6 +43184,7 @@ http://vocab.getty.edu/ulan/$1</rdfs:comment>
 
     <owl:Class rdf:about="http://dbpedia.org/ontology/Depth">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label xml:lang="en">Jaja</rdfs:label>
         <rdfs:label xml:lang="de">Tiefe</rdfs:label>
         <rdfs:label xml:lang="en">depth</rdfs:label>
         <rdfs:label xml:lang="nl">diepte</rdfs:label>

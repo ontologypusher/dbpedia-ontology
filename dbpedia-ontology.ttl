@@ -32712,7 +32712,8 @@ http://vocab.getty.edu/ulan/$1"""@en ;
 ###  http://dbpedia.org/ontology/Depth
 :Depth rdf:type owl:Class ;
        rdfs:subClassOf owl:Thing ;
-       rdfs:label "Tiefe"@de ,
+       rdfs:label "Jaja"@en ,
+                  "Tiefe"@de ,
                   "depth"@en ,
                   "diepte"@nl ,
                   "profondeur"@fr ,

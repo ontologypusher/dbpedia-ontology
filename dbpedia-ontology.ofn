@@ -33580,6 +33580,7 @@ SubClassOf(:Department :GovernmentalAdministrativeRegion)
 
 # Class: :Depth (Tiefe)
 
+AnnotationAssertion(rdfs:label :Depth "Jaja"@en)
 AnnotationAssertion(rdfs:label :Depth "Tiefe"@de)
 AnnotationAssertion(rdfs:label :Depth "depth"@en)
 AnnotationAssertion(rdfs:label :Depth "diepte"@nl)
